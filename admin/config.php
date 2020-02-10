@@ -6,8 +6,8 @@
  // Database connect
 $db_web_server = 'localhost';
  $db_web_login = 'root';
- $db_web_password = "root";
- $db_web_name = '';
+ $db_web_password = "";
+ $db_web_name = 'AuthMe';
  $db_web_conn = mysqli_connect( $db_web_server, $db_web_login, $db_web_password, $db_web_name );
  mysqli_select_db( $db_web_conn, $db_web_name ) or die( "Error with database connetction." );
 
